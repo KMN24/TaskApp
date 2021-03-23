@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">TaskApp</string>
+    <string name="text">Привет всем</string>
 </resources>
