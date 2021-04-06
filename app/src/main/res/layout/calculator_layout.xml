@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorYellow">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        >
+
+        <EditText
+            android:id="@+id/et_number1"
+            android:textColor="@color/colorBlack"
+            android:textSize="40sp"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            tools:layout_editor_absoluteX="43dp"
+            tools:layout_editor_absoluteY="61dp" />
+
+        <EditText
+            android:id="@+id/et_number2"
+            android:textColor="@color/colorBlack"
+            android:textSize="40sp"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            tools:layout_editor_absoluteX="282dp"
+            tools:layout_editor_absoluteY="61dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="12dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+        <Button
+            android:id="@+id/btn_addition"
+            android:text="@string/addition_operation"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorRed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
+            android:onClick="onClickAddition"/>
+        <Button
+            android:id="@+id/btn_subtraction"
+            android:text="@string/subtraction_operation"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
+            android:onClick="onClickSubtraction"/>
+        <Button
+            android:id="@+id/btn_multiplication"
+            android:text="@string/multiplication_operation"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorGreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
+            android:onClick="onClickMultiplication"/>
+        <Button
+            android:id="@+id/btn_division"
+            android:text="@string/division_operation"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorGrey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
+            android:onClick="onClickDivision"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:textSize="40sp"
+        android:layout_margin="12dp"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">TaskApp</string>
     <string name="text">Привет всем</string>
+    <string name="open_calculator">Open Calculator, 25th task</string>
+    <string name="subtraction_operation">-</string>
+    <string name="addition_operation">+</string>
+    <string name="multiplication_operation">*</string>
+    <string name="division_operation">/</string>
+    <string name="divide_by_zero">Can\'t divide by zero !</string>
 </resources>
