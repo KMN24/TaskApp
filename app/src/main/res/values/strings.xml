@@ -7,4 +7,8 @@
     <string name="multiplication_operation">*</string>
     <string name="division_operation">/</string>
     <string name="divide_by_zero">Can\'t divide by zero !</string>
+    <string name="open_stopwatch">Open a Stopwatch, 26th task</string>
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+    <string name="reset">RESET</string>
 </resources>

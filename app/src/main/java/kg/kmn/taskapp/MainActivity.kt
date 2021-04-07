@@ -13,11 +13,19 @@ class MainActivity : AppCompatActivity() {
 
 
     }
-
+    // task 25
     fun onClickOpenCalcAct(view: View) {
         // Open calculator activity, in short I will do 25th Task
         val intent = Intent(this, Calculator::class.java)
         startActivity(intent)
 
     }
+
+    fun onClickOpenStopwatchAct(view: View) {
+        // Open stopwatch activity, in short I will do 26th Task
+        val intent = Intent(this, StopwatchAct::class.java)
+        startActivity(intent)
+    }
+
+
 }
