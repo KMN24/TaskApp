@@ -11,4 +11,8 @@
     <string name="start">START</string>
     <string name="stop">STOP</string>
     <string name="reset">RESET</string>
+    <string name="open_mycolor_act">Open MyColor activity, 27th task</string>
+    <string name="red">красный</string>
+    <string name="yellow">желтый</string>
+    <string name="green">зеленый</string>
 </resources>

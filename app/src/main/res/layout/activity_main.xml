@@ -68,17 +68,28 @@
 
     <Button
         android:id="@+id/btn_openStopWatch"
-        android:text="@string/open_stopwatch"
-        android:onClick="onClickOpenStopwatchAct"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
-        android:layout_marginBottom="363dp"
+        android:layout_marginTop="44dp"
+        android:onClick="onClickOpenStopwatchAct"
+        android:text="@string/open_stopwatch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_openCalcAct" />
+
+    <Button
+        android:id="@+id/btn_openMyColorAct"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:onClick="onClickOpenMyColorAct"
+        android:text="@string/open_mycolor_act"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_openCalcAct"
+        app:layout_constraintTop_toBottomOf="@+id/btn_openStopWatch"
         app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyColorAct">
+
+    <Button
+        android:id="@+id/btn_switchToRed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:onClick="onClickChangeBackgrndToRed"
+        android:text="@string/red"
+        android:background="@drawable/my_buttons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_switchToYellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:onClick="onClickChangeBackgrndToYellow"
+        android:text="@string/yellow"
+        android:background="@drawable/my_buttons"
+        app:layout_constraintEnd_toEndOf="@+id/btn_switchToRed"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_switchToRed"
+        app:layout_constraintTop_toBottomOf="@+id/btn_switchToRed" />
+
+    <Button
+        android:id="@+id/btn_switchToGreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:onClick="onClickChangeBackgrndToGreen"
+        android:text="@string/green"
+        android:background="@drawable/my_buttons"
+        app:layout_constraintEnd_toEndOf="@+id/btn_switchToYellow"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_switchToYellow"
+        app:layout_constraintTop_toBottomOf="@+id/btn_switchToYellow" />
+
+    <TextView
+        android:id="@+id/tv_showColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Hello World!"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_switchToGreen"
+        app:layout_constraintStart_toStartOf="@+id/btn_switchToGreen"
+        app:layout_constraintTop_toBottomOf="@+id/btn_switchToGreen" />
+</androidx.constraintlayout.widget.ConstraintLayout>

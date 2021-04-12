@@ -21,9 +21,16 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    // task 26
     fun onClickOpenStopwatchAct(view: View) {
         // Open stopwatch activity, in short I will do 26th Task
         val intent = Intent(this, StopwatchAct::class.java)
+        startActivity(intent)
+    }
+
+    // task 27
+    fun onClickOpenMyColorAct(view: View) {
+        val intent = Intent(this, MyColorAct::class.java)
         startActivity(intent)
     }
 
